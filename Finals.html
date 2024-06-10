@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prelim</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            margin: 0;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .card {
+            background-color: white;
+            border: 5px solid #ccc;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 350px;
+        }
+
+        .card img {
+            width: 350px;
+            height: 250px;
+        }
+
+        .card-content {
+            padding: 30px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-radius: 5px;
+        }
+
+        .button-link {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        .button-link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="Finals.img/Act1.png" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Finals</h3>
+                <p>50% incompleted</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Finals.img/Act2.png" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Finals</h3>
+                <p>50% completed</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Finals.img/Act3.png" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Finals</h3>
+                <p>100% completed E-commerce</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Finals.img/Act4.png" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Finals</h3>
+                <p>50% Web-Base completed</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Finals.img/Logo.png" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Finals</h3>
+                <a href="https://main--japhet-dm-ecommerce.netlify.app/">
+                <button onclick="location.href='index.html'" class="button-link">Go to E-Commerce</button>
+            </div>
+        </div>
+    </a>
+    </div>
+
+</body>
+</html>

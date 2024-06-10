@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prelim</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .card {
+            background-color: white;
+            border: 5px solid #ccc;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+        }
+
+        .card img {
+            width: 350px;
+            height: 250px;
+        }
+
+        .card-content {
+            padding: 30px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="Prelim.img/Activity1.png" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Prelim</h3>
+                <p>Activity 1</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Prelim.img/Activity2.png" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Prelim</h3>
+                <p>Activity 2</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Prelim.img/Listof20.jpg" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Prelim</h3>
+                <p>Activity of List 20</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Prelim.img/Resume.jpg" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Prelim</h3>
+                <p>Activity Resume</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Prelim.img/PrelimExam.jpg" alt="">
+            <div style="color: black;" class="card-content">
+                <h3>Prelim</h3>
+                <p>Prelim Exam</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
